@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style src="css/spa.css"></style>
+	<style src="css/spa.shell.css"></style>
+
+	<script src="js/jq/jquery-3.2.1.min.js"></script>
+	<script src="js/spa.js"></script>
+	<script src="js/spa.shell.js"></script>
+	<script>
+		$(function(){
+			spa.initModule( $('#spa') );   //一旦DOM可用，初始化应用
+		})
+	</script>
+</head>
+<body>
+	<div id="spa"></div>
+</body>
+</html>
